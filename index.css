@@ -47,16 +47,17 @@ body {
 }
 #form-btn {
 	background-color: rgb(74, 105, 105);
-	font-size: 1.5rem;
+	font-size: 1rem;
 	border-radius: 0.375rem;
 	cursor: pointer;
+	padding: 0.5rem;
 }
 
 /* style ul */
 
 #task-list {
 	margin-top: 2rem;
-	height: 20rem;
+	flex: 1;
 	overflow: auto;
 	width: 100%;
 	list-style: none;
